@@ -1,0 +1,182 @@
+@font-face {
+    font-family: "Sans Forgetica";
+    src: url(SansForgetica-Regular.otf);
+}
+a {
+    text-decoration: none !important;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.fi {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: white;
+}
+.pi {
+    width: 100%;
+    display: flex;
+    background-color: blue;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    border-radius: 10px !important;
+    background-color: #fff !important;
+    margin: 1rem;
+    box-shadow: 5px 5px 5px #9e9e9e !important;
+        transition: all .9s ease-in-out;
+
+}
+.headtxt {
+    text-align: left;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.land {
+    text-align: center;
+    margin: 3rem;
+margin-top: 5rem;
+    padding: 1rem;
+    font-size: 16px;
+    color: white;
+    background: #7d49c1;/* Old Browsers */
+background: -moz-linear-gradient(45deg, #7d49c1 0%, #7d49c1 32%, #6a52c1 50%, #4e5fc1 77%); /* FF3.6+ */
+background: -webkit-gradient(left bottom, right top, color-stop(0%, #7d49c1), color-stop(32%, #7d49c1), color-stop(50%, #6a52c1), color-stop(77%, #4e5fc1));/* Chrome, Safari4+ */
+background: -webkit-linear-gradient(45deg, #7d49c1 0%, #7d49c1 32%, #6a52c1 50%, #4e5fc1 77%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(45deg, #7d49c1 0%, #7d49c1 32%, #6a52c1 50%, #4e5fc1 77%); /* Opera 11.10+ */
+background: -ms-linear-gradient(45deg, #7d49c1 0%, #7d49c1 32%, #6a52c1 50%, #4e5fc1 77%); /* IE 10+ */
+background: linear-gradient(45deg, #7d49c1 0%, #7d49c1 32%, #6a52c1 50%, #4e5fc1 77%);/* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d49c1', endColorstr='#4e5fc1', GradientType=1 );/* IE6-9 fallback on horizontal gradient */
+    letter-spacing: 5px;
+    border-radius: 1rem;
+    animation: border-re ease-in-out .9s alternate;
+}
+/* border-re animarion */
+@keyframes border-re {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+                transform: translateY(0);
+    }
+}
+.land-btn {
+    font-size: 10px !important;
+    background-color: white !important;
+    color: #7d49c1 !important;
+}
+.text:hover {
+    opacity: 0.5;
+    text-decoration: underline;
+        transition: all .9s ease-in-out;
+        letter-spacing: 0;
+
+}
+.img {
+    width: 100%;
+    height: auto;
+        border-radius: 10px;
+margin-bottom: 1rem;
+        transition: all .9s ease-in-out;
+
+}
+.img:hover {
+   filter: blur(2px);
+        transition: all .9s ease-in-out;
+
+}
+/* Container holding the image and the text */
+.pic-txt {
+    position: relative;
+}
+
+/* Bottom right text */
+.text {
+    position: absolute;
+    bottom: 4px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    width: 100%;
+    margin-bottom: 1rem;
+
+    height: 30%;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+    font-family: sans-serif;
+        transition: all .9s ease-in-out;
+        letter-spacing: 5px;
+
+}
+.menu {
+    color: white !important;
+    float: right!important;
+}
+.btn-menu {
+    color: #3f51b5 !important;
+        background-color: white !important;
+    border-radius: 10rem !important;
+        margin-left: 290% !important;
+
+}
+.footer {
+    background-color: #dfdfdf;
+    margin-bottom:0 !important;
+    margin:  0 !important;
+    padding: 0 !important;
+    text-align: center;
+    border-radius: 100% 100% 0 0 ;
+}
+.footer h4 {
+    font-weight: lighter;
+    color: #6e6e6e;
+        margin: 5px !important;
+
+}
+.footer p {
+    margin: 0 !important;
+        font-weight: lighter;
+    margin-top: 0 !important;
+
+        color: #6e6e6e;
+
+}
